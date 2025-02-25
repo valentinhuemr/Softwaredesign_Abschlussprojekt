@@ -52,8 +52,8 @@ if st.sidebar.button("🗑 Löschen"):
 
 
 # skalierung
-plot_size_x = st.sidebar.number_input("Plot-Breite (X)", min_value=40, max_value=500, value=100, step=10)
-plot_size_y = st.sidebar.number_input("Plot-Höhe (Y)", min_value=40, max_value=500, value=100, step=10)
+plot_size_x = st.sidebar.number_input("Plot-Breite (X)", min_value=40, max_value=500, value=200, step=10)
+plot_size_y = st.sidebar.number_input("Plot-Höhe (Y)", min_value=40, max_value=500, value=200, step=10)
 
 
 

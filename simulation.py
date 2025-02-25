@@ -88,6 +88,9 @@ def simulate_mechanism(mechanism, plot_size_x=100, plot_size_y=100, return_traje
                 frames.append(image)
 
     # Speichere GIF
+
+
+    
     if save_gif and frames:
         frames[0].save(
             gif_filename,
