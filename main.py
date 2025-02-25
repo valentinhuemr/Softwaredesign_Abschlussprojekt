@@ -1,4 +1,4 @@
-import cv2
+
 import streamlit as st
 import numpy as np
 from mechanism import Mechanism
@@ -7,6 +7,7 @@ from simulation import simulate_mechanism
 import matplotlib.pyplot as plt
 import time
 import pandas as pd
+
 
 
 st.title("Simulation eines 2D Mechanismus")
