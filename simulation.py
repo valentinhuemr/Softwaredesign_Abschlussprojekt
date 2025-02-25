@@ -14,7 +14,7 @@ def simulate_mechanism(mechanism, plot_size_x=100, plot_size_y=100, return_traje
     canvas = FigureCanvas(fig)  
 
    
-    fig, ax = plt.subplots(figsize=(5, 5))
+    fig, ax = plt.subplots(figsize=(10, 10))
     ax.set_xlim([-plot_size_x / 2, plot_size_x / 2])
     ax.set_ylim([-plot_size_y / 2, plot_size_y / 2])
 
@@ -89,7 +89,6 @@ def simulate_mechanism(mechanism, plot_size_x=100, plot_size_y=100, return_traje
 
     # Speichere GIF
 
-
     
     if save_gif and frames:
         frames[0].save(
@@ -99,6 +98,7 @@ def simulate_mechanism(mechanism, plot_size_x=100, plot_size_y=100, return_traje
             duration=50,  
             loop=0  
         )
+        
 
     if return_trajectory:
         return trajectory, gif_filename

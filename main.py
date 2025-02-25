@@ -135,8 +135,8 @@ mech.show_trajectory = show_trajectory
 #  Ausgangsstellung
 fig, ax = plt.subplots(figsize=(5, 5))
 
-ax.set_xlim ([-plot_size_x / 2, plot_size_x / 2])
-ax.set_ylim([-plot_size_y / 2, plot_size_y / 2])
+ax.set_xlim ([-plot_size_x/2 , plot_size_x/2 ])
+ax.set_ylim([-plot_size_y/2, plot_size_y/2 ])
 ax.set_title("Ausgangsstellung des Mechanismus")
 
 # Gelenke zeichnen
