@@ -12,17 +12,17 @@ Zusätzlich besteht die Möglichkeit, Mechanismen zu speichern und später erneu
 ## 2. Projektstruktur
 Das Projekt besteht aus vier Hauptmodulen, die jeweils eine bestimmte Funktionalität abdecken:
 
-### - **Mechanism**
+### - *Mechanism*
   - Implementierung des Mechanismus mit Gelenken, Stäben und Bewegungssimulationen.
 
-### - **Simulation**
+### - *Simulation*
   - Berechnung der Bewegung des Mechanismus.
   - Optionale Speicherung der Simulation als GIF.
 
-### - **Storage**
+### - *Storage*
   - Speichern und Laden von Mechanismen aus einer Datenbank oder einem Dateisystem.
 
-### - **GUI**
+### - *GUI*
   - Eine grafische Benutzeroberfläche zur Interaktion mit der Simulation.
 
 ## 3. Klassendiagramm
@@ -30,11 +30,15 @@ Hier ist das UML-Diagramm, das die Architektur und die Beziehungen zwischen den 
 
 ![UML-Diagramm](Images/UML-Diagramm.png)
 
-## 4. Funktionsweise
+## 4. Funktionsweise - Mindestanforderungen erfüllt
 Das Programm funktioniert folgendermaßen:
 
-1. **Neuen Mechanismus erstellen**: Der Nutzer erstellt einen neuen Mechanismus in der GUI.
-2. **Berechnung der Gelenkpositionen**: Die `Mechanism`-Klasse berechnet die Positionen der Gelenke und die optimalen Stablängen.
-3. **Simulation der Bewegung**: Die `Simulation`-Klasse simuliert die Bewegung des Mechanismus und kann diese als GIF speichern.
-4. **Speichern und Laden**: Der Mechanismus kann durch die `Storage`-Klasse gespeichert oder geladen werden.
+1. *Neuen Mechanismus erstellen*: Der Nutzer erstellt einen neuen Mechanismus in der GUI.
+2. *Berechnung der Gelenkpositionen*: Die Mechanism-Klasse berechnet die Positionen der Gelenke und die optimalen Stablängen.
+3. *Simulation der Bewegung*: Die Simulation-Klasse simuliert die Bewegung des Mechanismus und kann diese als GIF speichern.
+4. *Speichern und Laden*: Der Mechanismus kann durch die Storage-Klasse gespeichert oder geladen werden.
 
+## 5. Erweiterungen
+ - *GIF erstellen*: Die 'Simulation'-Klasse erstellt und speichert ein GIF.
+
+![Strandbeest-GIF](Images/mechanism_simulation.gif)
