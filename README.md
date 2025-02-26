@@ -41,7 +41,7 @@ Das Programm funktioniert folgendermaßen:
 ## 5. Erweiterungen
  - *Ausgangsstellung plot*: Ermöglicht die Mechanismen Visuell zu gestalten.
  - *GIF erstellen*: Die 'Simulation'-Klasse erstellt und speichert ein GIF.
- - *Stab Bilbiothek*: ermöglicht die länge jedes stabes einzusehen.
+ - *Stab Bilbiothek*: ermöglicht die länge jedes Stabes einzusehen.
 
 ![Strandbeest-GIF](Images/mechanism_simulation.gif)
 
