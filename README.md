@@ -127,8 +127,12 @@ Es gibt zwei wichtige Einstellungen pro Gelenk:
 <img src="Images/Stab_Einstellungen.png" width="25%">
 
 ---
+## 6. Stab-Biliothek
+- Übersicht aller Stäbe mit zugehörigen Gelenken und Längen-
+- Automatische Berechnung der Stablängen basierend auf Gelenkpositionen
+- Erleichtert die Analyse und Optimierung des Mechanismus
 
-## 6. Mechanismus speichern & Simulation starten
+## 7. Mechanismus speichern & Simulation starten
 Sobald alle Gelenke und Stäbe definiert wurden, kann der Mechanismus **unter einem Namen gespeichert** werden.
 
 - **Simulation starten:**  
@@ -137,7 +141,7 @@ Sobald alle Gelenke und Stäbe definiert wurden, kann der Mechanismus **unter ei
 
 ---
 
-## 7. Simulationsergebnisse & Export
+## 8. Simulationsergebnisse & Export
 Nach Abschluss der Simulation:
 
 - **GIF-Animation:**  
