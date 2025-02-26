@@ -81,16 +81,20 @@ Dieses Gelenk bewegt sich um Gelenk 1 auf einem Rotationsradius, der eingestellt
 Der Startwinkel gibt die Ausgangsposition auf der Kreisbahn an.
 Gelenk 2 wird automatisch berechnet und im Plot visualisiert.
 
+![Mittelpunkt+Radius-png](Images/Mittelpunkt.png)
+
 ## 4. Mechanismus-Visualisierung & Anpassung
 Der Plot der Ausgangsstellung zeigt die aktuelle Mechanismus-Konfiguration. Er dient dazu, den Mechanismus visuell zu gestalten und alle Gelenke sowie Stäbe richtig zu positionieren.
 
 Fixierte Gelenke werden schwarz dargestellt.
 Nicht fixierte Gelenke sind rot.
 Die Gelenknummern sind zur besseren Orientierung beschriftet.
+![Ausgangsstellung-png](Images/Ausgangsstellung.png)
+
 
 ## 5. Gelenke & Stäbe definieren
 
-Gelenke hinzufügen
+### Gelenke hinzufügen
 
 Die Anzahl der Gelenke kann gewählt werden.
 Jedes neue Gelenk bekommt eine eigene X- und Y-Koordinate.
@@ -104,10 +108,16 @@ Wenn aktiviert, bleibt das Gelenk starr (schwarz im Plot).
 Falls aktiviert, wird die Bewegungsbahn später in der Simulation dargestellt und in der CSV-Datei gespeichert.
 
 
-Stäbe definieren
+![Gelenk-Einstellungen-png](Images/Gelenk_Einstellungen.png)
+
+
+### Stäbe definieren
 
 Die Anzahl der Stäbe wird festgelegt.
 Jeder Stab verbindet zwei Gelenke miteinander und wird durch deren Nummern ausgewählt.
+
+![Stab-Einstellungen-png](Images/Stab_Einstellungen.png)
+
 ## 6. Mechanismus speichern & Simulation starten
 Sobald alle Gelenke und Stäbe definiert wurden, kann der Mechanismus unter einem Namen gespeichert werden.
 
@@ -127,3 +137,5 @@ Enthält nur die Gelenke, bei denen die Option "Bahnkurve anzeigen" aktiviert wa
 Kann ebenfalls heruntergeladen werden.
 Hinweis:
 Wird der Mechanismus verändert, muss die Simulation neu geladen werden, um die aktualisierten Parameter zu berücksichtigen.
+
+![CSV-GIF-Download-png](Images/Stab_Einstellungen.png)
