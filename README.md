@@ -48,9 +48,9 @@ Das Programm funktioniert folgendermaßen:
 
 
 
-# Bedienung und Funktionsweise der Mechanismus-Simulation
+## Bedienung und Funktionsweise der Mechanismus-Simulation
 
-## 1. Mechanismus-Verwaltung
+### 1. Mechanismus-Verwaltung
 Ganz oben in der Seitenleiste gibt es die Sektion "Mechanismus-Verwaltung", in der gespeicherte Mechanismen geladen oder gelöscht werden können.
 
 - **Laden eines Mechanismus:**  
@@ -63,7 +63,7 @@ Ganz oben in der Seitenleiste gibt es die Sektion "Mechanismus-Verwaltung", in d
 
 ---
 
-## 2. Voreinstellungen (Plotgröße & Geschwindigkeit)
+### 2. Voreinstellungen (Plotgröße & Geschwindigkeit)
 Bevor der Mechanismus definiert wird, gibt es einige grundlegende Voreinstellungen:
 
 - **Plot-Größe:**  
@@ -77,8 +77,8 @@ Bevor der Mechanismus definiert wird, gibt es einige grundlegende Voreinstellung
 
 ---
 
-## 3. Mechanismus-Erstellung
-### Mittelpunkt & Startwinkel
+### 3. Mechanismus-Erstellung
+#### Mittelpunkt & Startwinkel
 
 - **Gelenk 1 (Mittelpunkt) definieren:**  
   Dieses Gelenk bleibt fix und stellt den Rotationsmittelpunkt dar.  
@@ -93,7 +93,7 @@ Bevor der Mechanismus definiert wird, gibt es einige grundlegende Voreinstellung
 
 ---
 
-## 4. Mechanismus-Visualisierung & Anpassung
+### 4. Mechanismus-Visualisierung & Anpassung
 Der **Plot der Ausgangsstellung** zeigt die aktuelle Mechanismus-Konfiguration. Er dient dazu, den Mechanismus visuell zu gestalten und alle Gelenke sowie Stäbe richtig zu positionieren.
 
 - **Fixierte Gelenke werden schwarz dargestellt.**  
@@ -104,9 +104,9 @@ Der **Plot der Ausgangsstellung** zeigt die aktuelle Mechanismus-Konfiguration. 
 
 ---
 
-## 5. Gelenke & Stäbe definieren
+### 5. Gelenke & Stäbe definieren
 
-### Gelenke hinzufügen
+#### Gelenke hinzufügen
 - Die **Anzahl der Gelenke** kann gewählt werden.  
 - Jedes neue Gelenk bekommt eine eigene **X- und Y-Koordinate**.
 
@@ -120,19 +120,19 @@ Es gibt zwei wichtige Einstellungen pro Gelenk:
 
 <img src="Images/Gelenk_Einstellungen.png" width="50%">
 
-### Stäbe definieren
+#### Stäbe definieren
 - Die **Anzahl der Stäbe** wird festgelegt.  
 - Jeder Stab verbindet zwei Gelenke miteinander und wird durch deren Nummern ausgewählt.
 
 <img src="Images/Stab_Einstellungen.png" width="25%">
 
 ---
-## 6. Stab-Biliothek
+### 6. Stab-Biliothek
 - Übersicht aller Stäbe mit zugehörigen Gelenken und Längen-
 - Automatische Berechnung der Stablängen basierend auf Gelenkpositionen
 - Erleichtert die Analyse und Optimierung des Mechanismus
 
-## 7. Mechanismus speichern & Simulation starten
+### 7. Mechanismus speichern & Simulation starten
 Sobald alle Gelenke und Stäbe definiert wurden, kann der Mechanismus **unter einem Namen gespeichert** werden.
 
 - **Simulation starten:**  
@@ -141,7 +141,7 @@ Sobald alle Gelenke und Stäbe definiert wurden, kann der Mechanismus **unter ei
 
 ---
 
-## 8. Simulationsergebnisse & Export
+### 8. Simulationsergebnisse & Export
 Nach Abschluss der Simulation:
 
 - **GIF-Animation:**  
@@ -157,7 +157,7 @@ Wird der Mechanismus verändert, muss die Simulation neu geladen werden, um die 
 
 <img src="Images/CSV_GIF_Download.png" width="50%">
 
-# Quellen
+## Quellen
 Für das Projekt haben wir folgende Quellen verwendet:
 1. **Strandbeest – Wikipedia**  
    [https://de.wikipedia.org/wiki/Strandbeest](https://de.wikipedia.org/wiki/Strandbeest)  
