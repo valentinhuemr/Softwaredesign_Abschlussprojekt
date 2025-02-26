@@ -186,7 +186,7 @@ if st.sidebar.button("💾 Speichern"):
 
 
 
-if st.button("Simulation durchführen & GIF speichern"):
+if st.button("Simulation durchführen/ GIF & CSV erstellen"):
     
     optimized_joints = mech.optimize_joints()
     
