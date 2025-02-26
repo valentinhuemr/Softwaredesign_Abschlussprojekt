@@ -169,4 +169,5 @@ Für das Projekt haben wir folgende Quellen verwendet:
    [https://www.geogebra.org/m/xZdhgx3u](https://www.geogebra.org/m/xZdhgx3u)
 
 4. **ChatGPT (wurde zur Unterstützung im Ausmaß von ca. 20 % verwendet)**
-    [https://chatgpt.com](https://chatgpt.com) - 
+   [https://chatgpt.com](https://chatgpt.com)
+
