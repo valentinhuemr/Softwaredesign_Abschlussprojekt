@@ -138,4 +138,4 @@ Kann ebenfalls heruntergeladen werden.
 Hinweis:
 Wird der Mechanismus verändert, muss die Simulation neu geladen werden, um die aktualisierten Parameter zu berücksichtigen.
 
-![CSV-GIF-Download-png](Images/Stab_Einstellungen.png)
+![CSV-GIF-Download-png](Images/CSV_GIF_Download.png)
