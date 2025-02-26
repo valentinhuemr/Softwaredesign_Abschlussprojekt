@@ -56,7 +56,7 @@ Ganz oben in der Seitenleiste gibt es die Sektion "Mechanismus-Verwaltung", in d
 - Löschen eines Mechanismus:
 Wählt man einen gespeicherten Mechanismus aus und klickt auf "🗑 Löschen", wird dieser aus der Speicherliste entfernt.
 
-![Mechanismus-Verwaltung-png](mech_verwaltung.png)
+![Mechanismus-Verwaltung-png](Images/mech_verwaltung.png)
 ## 2. Voreinstellungen (Plotgröße & Geschwindigkeit)
 Bevor der Mechanismus definiert wird, gibt es einige grundlegende Voreinstellungen:
 
@@ -66,8 +66,8 @@ Hier kann die Breite (X) und Höhe (Y) des Plots eingestellt werden, um die Mech
 - Simulationsgeschwindigkeit:
 Über einen Schieberegler kann die Drehgeschwindigkeit von Gelenk 2 in Grad pro Frame festgelegt werden.
 
-![Plot-Einstellungen-png](Plot_Breite_Höhe.png)
-![Geschwindigkeit-png](Geschwindigkeit.png)
+![Plot-Einstellungen-png](Images/Plot_Breite_Höhe.png)
+![Geschwindigkeit-png](Images/Geschwindigkeit.png)
 
 ## 3. Mechanismus-Erstellung
 Mittelpunkt & Startwinkel
