@@ -168,6 +168,6 @@ Für das Projekt haben wir folgende Quellen verwendet:
 3. **GeoGebra Mechanismus-Simulation**  
    [https://www.geogebra.org/m/xZdhgx3u](https://www.geogebra.org/m/xZdhgx3u)
 
-4. **ChatGPT (wurde zur Unterstützung im Ausmaß von ca. 20 % verwendet)**
+4. **ChatGPT (wurde zur Unterstützung bei Fehlersuche und zur besseren Strukturierung verwendet)**
    [https://chatgpt.com](https://chatgpt.com)
 
