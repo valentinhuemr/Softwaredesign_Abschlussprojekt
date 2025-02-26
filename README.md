@@ -39,7 +39,9 @@ Das Programm funktioniert folgendermaßen:
 4. *Speichern und Laden*: Der Mechanismus kann durch die Storage-Klasse gespeichert oder geladen werden.
 
 ## 5. Erweiterungen
+ - *Ausgangsstellung plot*: Ermöglicht die Mechanismen Visuell zu gestalten.
  - *GIF erstellen*: Die 'Simulation'-Klasse erstellt und speichert ein GIF.
+ - *Stab Bilbiothek*: ermöglicht die länge jedes stabes einzusehen.
 
 ![Strandbeest-GIF](Images/mechanism_simulation.gif)
 
