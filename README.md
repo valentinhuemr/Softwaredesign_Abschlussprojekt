@@ -156,3 +156,14 @@ Nach Abschluss der Simulation:
 Wird der Mechanismus verändert, muss die Simulation neu geladen werden, um die aktualisierten Parameter zu berücksichtigen.
 
 <img src="Images/CSV_GIF_Download.png" width="50%">
+
+# Quellen
+Für das Projekt haben wir folgende Quellen verwendet:
+1. **Strandbeest – Wikipedia**  
+   [https://de.wikipedia.org/wiki/Strandbeest](https://de.wikipedia.org/wiki/Strandbeest)  
+
+2. **Streamlit Community Cloud – Deployment-Dokumentation**  
+   [https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app)  
+
+3. **GeoGebra Mechanismus-Simulation**  
+   [https://www.geogebra.org/m/xZdhgx3u](https://www.geogebra.org/m/xZdhgx3u)
