@@ -151,6 +151,30 @@ for rod in rods:
     p1, p2 = joints[j1], joints[j2]
     ax.plot([p1[0], p2[0]], [p1[1], p2[1]], 'k-', lw=2)
 
+def calculate_rod_length(joint1, joint2):
+    return np.linalg.norm(joint2 - joint1)
+
+
+st.sidebar.subheader("📚 Stabbibliothek")
+
+if st.sidebar.button("Bibliothek öffnen"):
+    if rods:
+        rod_data = []
+        for i, rod in enumerate(rods, start=1):
+            j1, j2 = rod
+            length = calculate_rod_length(joints[j1], joints[j2])
+            rod_data.append({
+                "Stab": f"Stab {i}",
+                "Gelenke": f"J{j1} - J{j2}",
+                "Länge": f"{length:.2f}"
+            })
+        
+        df_rods = pd.DataFrame(rod_data)
+        st.sidebar.dataframe(df_rods)
+    else:
+        st.sidebar.error("Keine Stäbe im Mechanismus vorhanden.")
+
+
 # Anzeige im Streamlit
 st.pyplot(fig)
 
