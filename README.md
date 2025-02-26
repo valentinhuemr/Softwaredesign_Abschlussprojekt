@@ -122,7 +122,7 @@ Es gibt zwei wichtige Einstellungen pro Gelenk:
 - Die **Anzahl der Stäbe** wird festgelegt.  
 - Jeder Stab verbindet zwei Gelenke miteinander und wird durch deren Nummern ausgewählt.
 
-<img src="Images/Stab_Einstellungen.png" width="50%">
+<img src="Images/Stab_Einstellungen.png" width="25%">
 
 ---
 
