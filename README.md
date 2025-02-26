@@ -8,7 +8,7 @@ Das Projekt besteht aus vier Hauptmodulen:
 •	Storage: Speichern und Laden von Mechanismen aus einer Datenbank oder einem Dateisystem.
 •	GUI: Eine grafische Benutzeroberfläche zur Interaktion mit der Simulation.
 3. Klassendiagramm
-![UML-Diagramm](https://imgur.com/a/gaLExuP.png)
+![UML-Diagramm](Images/UML-Diagramm.png)
 4. Funktionsweise
 Das Programm funktioniert folgendermaßen:
 1.	Der Nutzer erstellt einen neuen Mechanismus in der GUI.
